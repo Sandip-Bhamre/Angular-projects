@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row center"><b>Solution 1</b></div>
+    <br>
+    <br>    
+    <div class="row mt-2 border">
+      <span class="mt-1">Please enter the position of the number</span>
+      <span class="mt-1 ml-2"
+        ><input type="number" [(ngModel)]="inputvalue"
+      /></span>
+      <span class="mt-1 ml-2"
+        ><button class="btn btn-primary" (click)="resultnumber(inputvalue)">
+          Result
+        </button></span
+      >
+      <span class="mt-1 ml-2">Result is : {{ result }}</span>
+    </div>
+  </div>
